@@ -24,12 +24,12 @@ public class BusinessManager : MonoBehaviour
 
     private void InitializeBusinessData()
     {
-        // Small businesses
+        // Small businesses - 10x priser
         availableBusinesses.Add(new BusinessData
         {
             name = "Lemonade Stand",
             description = "En lille limonadekiosk",
-            baseCost = 100f,
+            baseCost = 1000f,
             baseIncome = 5f,
             incomeInterval = 3f,
             type = BusinessType.Kiosk
@@ -39,7 +39,7 @@ public class BusinessManager : MonoBehaviour
         {
             name = "Hot Dog Stand",
             description = "En hotdog vogn",
-            baseCost = 250f,
+            baseCost = 2500f,
             baseIncome = 15f,
             incomeInterval = 5f,
             type = BusinessType.Kiosk
@@ -49,7 +49,7 @@ public class BusinessManager : MonoBehaviour
         {
             name = "Small Shop",
             description = "En lille butik",
-            baseCost = 500f,
+            baseCost = 5000f,
             baseIncome = 40f,
             incomeInterval = 8f,
             type = BusinessType.Shop
@@ -59,7 +59,7 @@ public class BusinessManager : MonoBehaviour
         {
             name = "Supermarket",
             description = "En supermarked",
-            baseCost = 1500f,
+            baseCost = 15000f,
             baseIncome = 150f,
             incomeInterval = 10f,
             type = BusinessType.Store
@@ -69,7 +69,7 @@ public class BusinessManager : MonoBehaviour
         {
             name = "Restaurant",
             description = "En restaurant",
-            baseCost = 2000f,
+            baseCost = 20000f,
             baseIncome = 200f,
             incomeInterval = 12f,
             type = BusinessType.Restaurant
